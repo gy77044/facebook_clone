@@ -9,11 +9,12 @@
 .upper-container{
   display: flex;
   position: relative;
-  min-height: 95vh;
+  min-height: 95.5vh;
   text-align: center;
   margin: auto;
   justify-content: space-between;
   width:67%;
+  left:23px;
 }
 
 .upper-left-container{
@@ -28,12 +29,14 @@
 .upper-right-container{
   text-align: left;
   margin: auto;
+  position: relative;
+  top:-20px;
 }
 .upper-left-container h1{
   color:#1877f2;
   font-size: 60px;
   font-family: 'Lato', sans-serif;
-  margin-top:-50px;
+  margin-top:-180px;
   margin-bottom:0px;
 }
 .upper-left-container p{  
@@ -87,24 +90,26 @@
 }
 a{
   font-family: sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   color:#1877f2;
+  text-decoration: none;
   
 }
 hr{
   width:95%;
+  margin: 10px 0;
   
 }
 input.create-account-btn{
   font-family: sans-serif;
   font-weight: bold;
-  width:60%;
-  font-size: 18px;
+  width:53%;
+  font-size: 17px;
   background-color: #42b72a;
   color: #edf0f5;
   height: 50px;
   border: none;
- 
+  margin: 15px;
 }
 .form-bottom-line-container{
   margin: 20px;
